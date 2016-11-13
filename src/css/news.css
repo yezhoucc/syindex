@@ -1,0 +1,27 @@
+.about-detail.trends{
+
+}
+.about-detail.trends .line{
+    margin-bottom:0;
+}
+.about-detail.trends li{
+    padding: 20px 30px 20px 30px;
+    cursor: pointer;
+    /*background-color: pink;*/
+    border-bottom:1px solid #eaeaea;
+}
+.about-detail.trends .trends-title{
+    margin-bottom:10px;
+}
+.about-main .detail-artical .trends-content{
+    text-indent:0;
+}
+.about-detail.trends li:hover{
+    background-color: #fafafa;
+}
+.about-detail.trends li:hover a{
+    color: #f1472e;
+}
+
+
+

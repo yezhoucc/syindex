@@ -1,0 +1,33 @@
+.evevt-con{
+    padding-left:26px;
+    color: #666666;
+}
+.evevt-con .evevt-title{
+    font:bold 18px/1 "Microsoft YaHei";
+    padding-top:44px;
+    padding-bottom:46px;
+    text-align: center;
+}
+.evevt-con .MsoNormal{
+    width: 622px;
+
+}
+.evevt-con .MsoNormal span{
+    line-height:22px;
+    font-size:14px;
+    display: inline-block;
+}
+.evevt-con p img{
+    margin-top:34px;
+}
+.evevt-con .title-bottom{
+
+    padding:40px 0;
+    text-align: center;
+}
+.evevt-con .title-bottom a{
+    /*color: #4489C9;*/
+}
+.evevt-con .title-bottom a:hover{
+
+}

@@ -1,0 +1,94 @@
+.header{
+    height: 100px;
+}
+.header .logo{
+    padding-top:14px;
+}
+.header .main{
+    overflow:visible;
+}
+.header .common-nav{
+
+}
+.header .common-nav ul{
+
+}
+.header .common-nav li{
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.header .common-nav li .nav-index{
+    width: 106px;
+    height: 95px;
+    font:18px/95px "Microsoft YaHei";
+    color: #333333;
+    border-bottom:5px solid #F1472D;
+    border-left: 5px solid transparent;
+    margin-left:-5px;
+    /*border-right:5px solid transparent;*/
+    float: left;
+}
+.header .common-nav li .nav-index{
+    width: 96px;
+}
+.header .common-nav li .nav-last{
+    position: relative;
+}
+.header .common-nav li .nav-last:before{
+    content: '';
+    display: block;
+    position: absolute;
+    /*background-color: pink;*/
+    /*margin-right:-5px;*/
+    width: 0;
+    height: 0;
+    right: -5px;
+    bottom: -5px;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #ffffff;
+    border-left: 5px solid transparent;
+
+}
+.header .common-nav li .nav-index:hover{
+    color: #F1472D;
+    text-decoration: none;
+    border-bottom:5px solid #FFBE63;
+    border-left: 5px solid transparent;
+}
+.header .common-nav li.active .nav-index{
+    color: #F1472D;
+    text-decoration: none;
+    border-bottom:5px solid #FFBE63;
+    border-left: 5px solid transparent;
+}
+.header .common-nav li .list-group{
+    position: absolute;
+    top: 95px;
+    left: -34px;
+    /*width: 100%;*/
+    width: 154px;
+    z-index: 99;
+    display: none;
+}
+.header .common-nav li.active .list-group{
+    display: block;
+}
+.header .common-nav .list-group .list-item{
+
+}
+.header .common-nav .list-group .at{
+    /*font-size:16px;*/
+    /*color: #222222;*/
+    display: block;
+    height: 48px;
+    line-height: 48px;
+    background-color: #fff;
+    border-top:1px solid #eaeaea;
+    border-bottom:0 none;
+}
+.header .common-nav .list-group .at:hover{
+    background-color:#fafafa;
+
+}

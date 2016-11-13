@@ -1,0 +1,16 @@
+{
+  "name": "oficial",
+  "version": "1.0.0",
+  "description": "\"商嬴官网\"",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-file-include": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ccc",
+  "license": "ISC"
+}

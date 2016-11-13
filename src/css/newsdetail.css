@@ -1,0 +1,26 @@
+.newsdetail{
+    padding-left:24px;
+    color: #666666;
+    position: relative;
+}
+.newsdetail .newsdetail-title{
+    line-height: 1;
+    text-align: center;
+    height: 50px;
+}
+.newsdetail .newsdetail-day{
+    text-align: center;
+    color: #999999;
+    line-height: 1;
+    height: 60px;
+}
+.newsdetail .newsdetail-img{
+    margin-bottom: 30px;
+}
+.newsdetail .newsdetail-info{
+    margin-bottom: 30px;
+}
+.newsdetail .newsdetail-t{
+    margin-bottom: 30px;
+    font-size:16px;
+}
